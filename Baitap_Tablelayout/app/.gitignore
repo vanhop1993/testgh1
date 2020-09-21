@@ -1,0 +1,1 @@
+getResources().getStringArray(R.array.array_animals)

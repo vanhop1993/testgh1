@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="Java Co Ban"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C19A25"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="View 1"
+        android:textColor="#f20"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="View 2"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#408780"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="View 3"
+            android:textColor="#C706F3"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#08C127"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="View 4"
+            android:textColor="#8F6464"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#8A8040"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="View 5"
+            android:textColor="#191414"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#C18D08"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="View 6"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            boder
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:text="Java cơ bản"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#C19A25"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="View 1"
+            android:textColor="#f20"
+            android:textSize="30sp" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="View 2"
+                android:textColor="#E8E5E4"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#408780"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="View 3"
+                android:textColor="#FBF8FB"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#08C127"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="View 4"
+                android:textColor="#8F6464"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#8A8040"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="View 5"
+                android:textColor="#191414"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#C18D08"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="View 6"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
